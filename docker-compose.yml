@@ -16,7 +16,7 @@ services:
       - "80:8000"
 
   database:
-    image: mysql:latest
+    image: mysql:5.6
     volumes:
       - ./storage/db:/var/lib/mysql
     ports:
